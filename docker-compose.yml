@@ -1,0 +1,16 @@
+# This is a development-oriented local docker compose file, meant to link together the components of
+# the Deephaven Community Core.
+#
+# There are some simplifying assumptions:
+#
+# 1. Docker is running locally and has access to filesystem bind mounts
+# 2. The images are being built via ./gradlew prepareCompose
+# 3. The user is running a non-production system, and does not want to deal with TLS
+#
+# Please see README.md with more details on how to get started.
+
+services:
+  server:
+    extends:
+      file: docker-compose-common.yml
+      service: server

@@ -1,0 +1,193 @@
+##############################
+# deephaven-core .gitignore #
+##############################
+
+# Ignore everything inside deephaven-core folder
+/*
+
+# Don't ignore .gitignore itself
+!.gitignore
+
+# Note: to ensure that new rules don't mask already committed files, run:
+# git ls-files -i --exclude-standard
+#
+# This check is run in CI, see .github/scripts/check-gitignore-rules.sh
+
+### Gradle ###
+.gradle/
+build/
+buildTest/
+*/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+gradle/wrapper/gradle-wrapper.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+*.iml
+out/
+.idea_modules/
+*/out/
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.apt_generated/
+.factorypath
+.buildpath
+.target
+.tern-project
+.springBeans
+.externalToolBuilders/
+
+### VS Code ###
+.vscode/
+.code-workspace
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+target/
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+py/venvs/
+py/installs/
+web/.cache
+build/pipcache/
+.programfiles/
+workspaces/
+devopsLocal/
+pyclient/venv
+pyclient/dist
+.venv/
+
+### R ###
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+### Node.js ###
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+### Logs and databases ###
+*.log
+logs/
+/logs/*
+*.sql
+*.sqlite
+*.db
+
+### OS Specific ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+**/.DS_Store
+
+### Project Specific ###
+IRIS_GRADLE_VERSION
+IRIS_VCS_VERSION
+JAVA_VERSION
+lib/external/
+lib/thirdparty/
+irisDb.history
+.reviewboardrc
+.illumon.launcher.properties
+Containers/dockers/packages*
+Containers/dockers/third-party/*
+docker-compose.override.yml
+/data/
+/test.*
+/test
+/Test*
+sphinx/build/
+jenkins/failures
+.java-version
+
+### C++ related ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### Docker ###
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+!docker-compose-common.yml
+!docker-compose.yml
