@@ -1,6 +1,0 @@
-jvm_dll = None
-jvm_maxmem = '${jvmMaxMem}'
-jvm_classpath = ['${jvmClasspath}']
-jvm_properties = {'PyObject.cleanup_on_thread': 'false'} # TODO issue #651 to see if we can remove this
-#jvm_options = ['-Djpy.debug=true']
-jvm_options = []

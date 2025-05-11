@@ -1,9 +1,0 @@
-services:
-  deephaven:
-    image: ghcr.io/deephaven/server-slim:${VERSION:-latest}
-    ports:
-      - "${DEEPHAVEN_PORT:-10000}:10000"
-    volumes:
-      - ./data:/data
-    environment:
-      - START_OPTS=-Xmx4g

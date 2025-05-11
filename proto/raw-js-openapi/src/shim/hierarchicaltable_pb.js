@@ -1,1 +1,0 @@
-Object.assign(exports, require('real/hierarchicaltable_pb').io.deephaven.proto.backplane.grpc)

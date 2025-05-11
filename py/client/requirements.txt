@@ -1,5 +1,0 @@
-pyarrow
-grpcio
-protobuf
-bitstring
-numpy

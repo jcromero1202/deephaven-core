@@ -1,4 +1,0 @@
-dependencies {
-    implementation libs.pac4j.oidc
-    implementation libs.pac4j.http
-}

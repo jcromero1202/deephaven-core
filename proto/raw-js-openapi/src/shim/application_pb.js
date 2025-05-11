@@ -1,1 +1,0 @@
-Object.assign(exports, require('real/application_pb').io.deephaven.proto.backplane.grpc)

@@ -1,8 +1,0 @@
-plugins {
-    id 'io.deephaven.project.register'
-    id 'java-library'
-}
-
-dependencies {
-    implementation project(':Base')
-}

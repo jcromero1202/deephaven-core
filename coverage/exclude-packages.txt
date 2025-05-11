@@ -1,5 +1,0 @@
-io.deephaven.tuple.generated
-io.deephaven.engine.table.impl.tuplesource.generated
-io.deephaven.proto.backplane.grpc
-io.deephaven.proto.backplane.script.grpc
-io.deephaven.proto

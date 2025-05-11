@@ -1,1 +1,0 @@
-Object.assign(exports, require('real/inputtable_pb').io.deephaven.proto.backplane.grpc)

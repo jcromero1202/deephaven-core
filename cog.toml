@@ -1,6 +1,0 @@
-[changelog]
-path = "CHANGELOG.md"
-template = "deephaven-changelog"
-remote = "github.com"
-repository = "deephaven-core"
-owner = "deephaven"

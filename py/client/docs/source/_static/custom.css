@@ -1,8 +1,0 @@
-
-/* Spacing after functions. */
-dl {
-    margin-bottom: 50px;
-}
-
-/* Do not print the module value properties (e.g. "= None") */
-em.property { display: none }
